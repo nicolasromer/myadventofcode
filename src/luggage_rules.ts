@@ -15,9 +15,7 @@ const l = (name: string, text: Array<any> | any): void => console.log(name + ': 
 /*
  Parse input
  */
-
 const ruleText = input.split('\n').map(t => t.trim());
-//l('ruleText', ruleText);
 
 const bagRegex = new RegExp(/((\w+ \w+)) bags contain/ig);
 const ruleRegex = new RegExp(/((\d) (\w+ \w+) bag)/ig);
@@ -75,10 +73,6 @@ Problem 2
 
  how many total bags does the shiny gold bag hold?
 */
-
-
-
-
 
 const mustHold = getMustHold();
 
